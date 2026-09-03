@@ -1,0 +1,43 @@
+.journal-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-row{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.form-label{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    min-width: 150px;
+}
+
+.invalid{
+    border: 1px solid red;
+    background: rgb(78, 6, 6);
+}
+
+textarea{
+    border: none;
+    background: #181717;
+    color: #FFFFFF;
+}
+
+.delete{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    height: 30px;
+   width: 30px;
+}
+
+.delete:hover{
+   background: rgb(255, 255, 255, 0.05);
+   border-radius: 50%;
+}
